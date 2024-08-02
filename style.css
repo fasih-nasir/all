@@ -7,7 +7,13 @@ body {
     /* background: rgb(23,23,23);
     background: linear-gradient(4deg, rgba(23,23,23,1) 0%, rgba(47,11,49,1) 100%); */
 }
-
+video{
+    /* width: 100%; */
+    object-fit: cover;
+    background-size: cover;
+height: 50vh !important;
+    /* width: 100% !important; */
+}
 .container-fluid > div:nth-child(1),
 .container-fluid > div:nth-child(3) {
     /* border: 2px solid red; */
@@ -92,7 +98,7 @@ i>span{
             flex-wrap: wrap;
             overflow-y: scroll;
             height: 34vh;
-            transition: img 0.5s ease-in-out !important;
+            /* transition: img 0.5s ease-in-out !important; */
             /* box-shadow: rgba(105, 106, 107, 0.691) 0px 2px 4px 0px, rgb(50, 54, 55) 0px 2px 16px 0px; */
 }
 h5{
