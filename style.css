@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;   font-family: "Balsamiq Sans" !important;
+    text-transform: capitalize;
+    /* background-color: rgb(90, 90, 90) !important; */
+    /* background: rgb(23,23,23);
+    background: linear-gradient(4deg, rgba(23,23,23,1) 0%, rgba(47,11,49,1) 100%); */
+}
+
+.container-fluid > div:nth-child(1),
+.container-fluid > div:nth-child(3) {
+    /* border: 2px solid red; */
+    color: rgb(217, 217, 217);
+    background-color: #313131;
+    height: 100vh;
+    /* border-radius: 10px; */
+}
+
+.container-fluid > div:nth-child(2) {
+    background-color: #202020;
+    /* border-radius: 10px; */
+    color: white;
+    border: 2px solid transparent;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+.add {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: white !important;
+    color: black !important;
+}
+button{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+}
+a{
+    color: rgb(217, 217, 217) !important;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.fa-play{
+    padding: 5px 15px;
+    font-size: 10px;
+    color: white;
+    background-color:#313131;
+}
+i{
+    letter-spacing: 1.2px;
+    text-align: center;
+    /* margin: 0px 10px; */
+    /* font-size: 14px; */
+    /* width: 75%; */
+    border-radius: 30px;
+    padding:10px 10px;
+    text-align: center;
+    background-color: #202020;
+}
+i>span{
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.add1{
+    color: white;
+}
+.col-5{
+    box-sizing: border-box;
+    border-radius: 10px;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    /* border: 5px solid #313131; */
+}
+.col-5>img{
+    object-fit: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#main{  
+    display: flex;
+            flex-wrap: wrap;
+            overflow-y: scroll;
+            height: 34vh;
+            transition: img 0.5s ease-in-out !important;
+            /* box-shadow: rgba(105, 106, 107, 0.691) 0px 2px 4px 0px, rgb(50, 54, 55) 0px 2px 16px 0px; */
+}
+h5{
+    padding: 5px 10px;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    background-color: #313131;
+}
+
+.tr{
+
+    transition: 1.8s ease-in-out !important;
+}
+img{
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 5px 1px;
+    background-color:#3a3a3a;
+}
+select{    text-transform: capitalize !important;
+    background-color: #313131;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+}
+option{
+    padding: 20px !important;
+    background-color: #2c2929 !important;
+    
+}
+#btc{
+    color: rgb(205, 204, 204);
+    background-color: #313131;
+    outline: none !important;
+    border: none !important;
+}
+.form-group>input::placeholder,.form-group>textarea::placeholder{
+    color: rgb(205, 204, 204);    outline: none !important;
+    text-transform: capitalize;
+    /* background-color: #3a3a3a !important; */
+}
+.form-group>input:focus{    color: rgb(205, 204, 204);
+    background-color:#3a3a3a;    outline: none !important;
+}
+#fill{
+    color: rgb(210, 206, 206);
+animation: 1.9s  fn linear infinite;
+}
+@keyframes fn {
+    0%,100%{transform: scale(1); color: rgb(245, 87, 87);}
+    50%{transform: scale(1.2);}
+}
+.form-group>input,.form-group>textarea{
+    margin: 5px 0px;       color: rgb(205, 204, 204);
+    /* color: rgb(205, 204, 204); */    outline: none !important;
+    background-color: #2c2929;
+}
+.abimg{
+    object-fit: cover;
+    border-radius: 55%;
+    width: 120px;
+    height: 130px !important;
+}
+#d4{
+    color: rgb(212, 212, 212);
+}
+#search{
+    /* padding: 10px 10px; */
+    text-transform: capitalize;
+    color: white;
+    background-color: #313131 !important;
+}
+.tr>img{
+    height: 100px;
+    /* object-fit: cover; */
+    /* background-size: cover; */
+}
