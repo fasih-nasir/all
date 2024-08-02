@@ -27,7 +27,7 @@ var all=[
     {name:"Login/LogOut",cat:"website",href:"https://fasih-nasirjsproject23.netlify.app/",img:"img/22.jpg"}
 
 ]
-document.getElementById("len").innerHTML=`(${all.length+2})`
+// document.getElementById("len").innerHTML=`(${all.length+2})`
  fn(all)
 
  function fn(all){
