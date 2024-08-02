@@ -6,7 +6,7 @@
 //     document.getElementById("d3").classList.toggle("add");
 // document.querySelector(".i").classList.toggle("add1");
 // });
-location.reload()
+
 var all=[
     {name:"Loan calculator",cat:"calulator",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/36.png"},
     {name:"Budget calculator",cat:"calulator",href:"https://fasih-nasirbudgetcalculator.netlify.app/",img:"img/37.png"},
