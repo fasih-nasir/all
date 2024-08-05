@@ -15,6 +15,10 @@ var all=[
     {name:"Admin Pannel",cat:"website",href:"https://fasih-nasirjsproject27.netlify.app/",img:"img/32.png"},
     {name:"Keypress Game",cat:"game",href:"https://fasih-nasirkeypress.netlify.app/",img:"img/38.png"},
     {name:"tic-tac-toe",cat:"game",href:"https://fasih-nasirtictoe.netlify.app/",img:"img/281.png"},
+    
+        {name:"Wesbite",cat:"website",href:"https://fasihnasirdemo2.netlify.app/",img:"img/40.png"},
+      {name:"Wesbite",cat:"website",href:"https://fasihnasirwi.netlify.app/",img:"img/41.png"},
+    
     {name:"Budget calculator",cat:"calulator",href:"https://fasih-nasirbudgetcalculator.netlify.app/",img:"img/37.png"},
     {name:"Quiz App",cat:"website",href:"https://fasih-nasirjsproject24.netlify.app/",img:"img/24.png"},
     {name:"calculator",cat:"calulator",href:"https://fasih-nasirjsproject17.netlify.app/cal.html",img:"img/16.jpg"},
