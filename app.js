@@ -9,8 +9,9 @@
 
 var all=[
 
-
-    {name:"Loan calculator",cat:"calulator",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/36.png"},
+  {name:"Chat Stream",cat:"calulator",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/43.png"},
+    
+    {name:"Loan calculator",cat:"website",href:"https://fasih-nasirpostappp.netlify.app/",img:"img/36.png"},
         {name:"Firesbase Login",cat:"wesbite",href:"https://firesbaselogin.netlify.app/",img:"img/42.png"},
  {name:"Case Converter",cat:"website",href:"https://fasih-nasircaseconverter.netlify.app/",img:"img/39.png"},
     {name:"Admin Pannel",cat:"website",href:"https://fasih-nasirjsproject27.netlify.app/",img:"img/32.png"},
