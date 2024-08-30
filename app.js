@@ -10,16 +10,20 @@
 var all=[
 
   {name:"Chat Stream",cat:"website",href:"https://fasih-nasirpostappp.netlify.app/",img:"img/43.png"},
-    
-    {name:"Loan calculator",cat:"calulato",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/36.png"},
-        {name:"Firesbase Login",cat:"wesbite",href:"https://firesbaselogin.netlify.app/",img:"img/42.png"},
+
+    {name:"React Projects",cat:"react",href:"https://react-all-projects.vercel.app/",img:"img/45.png"},
+  
+  {name:"Brio Website",cat:"website",href:"https://fasih-nasirbrio.netlify.app/",img:"img/44.png"},
+  
+    {name:"Loan calculator",cat:"calulator",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/36.png"},
+        {name:"Firesbase Login",cat:"website",href:"https://firesbaselogin.netlify.app/",img:"img/42.png"},
  {name:"Case Converter",cat:"website",href:"https://fasih-nasircaseconverter.netlify.app/",img:"img/39.png"},
     {name:"Admin Pannel",cat:"website",href:"https://fasih-nasirjsproject27.netlify.app/",img:"img/32.png"},
     {name:"Keypress Game",cat:"game",href:"https://fasih-nasirkeypress.netlify.app/",img:"img/38.png"},
     {name:"tic-tac-toe",cat:"game",href:"https://fasih-nasirtictoe.netlify.app/",img:"img/281.png"},
     
-        {name:"Wesbite",cat:"website",href:"https://fasihnasirdemo2.netlify.app/",img:"img/40.png"},
-      {name:"Wesbite",cat:"website",href:"https://fasihnasirwi.netlify.app/",img:"img/41.png"},
+        {name:"website",cat:"website",href:"https://fasihnasirdemo2.netlify.app/",img:"img/40.png"},
+      {name:"website",cat:"website",href:"https://fasihnasirwi.netlify.app/",img:"img/41.png"},
     
     {name:"Budget calculator",cat:"calulator",href:"https://fasih-nasirbudgetcalculator.netlify.app/",img:"img/37.png"},
     {name:"Quiz App",cat:"website",href:"https://fasih-nasirjsproject24.netlify.app/",img:"img/24.png"},
