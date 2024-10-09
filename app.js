@@ -8,6 +8,8 @@
 // });
 
 var all=[
+  {name:"OLX",cat:"react",href:"https://fasih-nasirolx.vercel.app/",img:"img/48.png"},
+  
   {name:"Portfolio",cat:"website",href:"https://ubaid-portfolio-khaki.vercel.app/",img:"img/47.png"},
 
   {name:"Chat Stream",cat:"website",href:"https://fasih-nasirpostappp.netlify.app/",img:"img/43.png"},
