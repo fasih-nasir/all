@@ -8,6 +8,9 @@
 // });
 
 var all=[
+  {name:"Indeed",cat:"platform",href:"https://fasih-nasir-indeed.vercel.app/",img:"img/49.png"},
+
+  
   {name:"OLX",cat:"platform",href:"https://fasih-nasirolx.vercel.app/",img:"img/48.png"},
   
   {name:"Portfolio",cat:"website",href:"https://ubaid-portfolio-khaki.vercel.app/",img:"img/47.png"},
