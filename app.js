@@ -8,7 +8,7 @@
 // });
 
 var all=[
-    // {name:"Vin Website",cat:"website",href:"https://www.vinauditspro.com/",img:"img/51.png"},
+  
     {name:"WIHR",cat:"react",href:"https://fasihnasirwi.vercel.app/",img:"img/52.png"},
     
     
