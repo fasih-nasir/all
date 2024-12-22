@@ -302,7 +302,7 @@ animation: 1.9s  fn linear infinite;
     top: 28px;
  border-bottom: 1px solid  #8b8b8b !important;
     /* background-color: #3498db; Color of the progress line */
-    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+    animation: moveProgress1 10s ease-in-out forwards; /* Animation */
   }
   .pro2 {
     position: absolute;
@@ -311,7 +311,7 @@ animation: 1.9s  fn linear infinite;
     top: 56px;
  border-bottom: 1px solid  #8b8b8b !important;
     /* background-color: #3498db; Color of the progress line */
-    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+    animation: moveProgress2 10s ease-in-out forwards; /* Animation */
   }
   .pro3 {
     position: absolute;
@@ -320,7 +320,7 @@ animation: 1.9s  fn linear infinite;
     top: 84px;
  border-bottom: 1px solid  #8b8b8b !important;
     /* background-color: #3498db; Color of the progress line */
-    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+    animation: moveProgress3 10s ease-in-out forwards; /* Animation */
   }
   .pro4 {
     position: absolute;
@@ -341,6 +341,31 @@ animation: 1.9s  fn linear infinite;
       width: 100%;
     }
   }
+  @keyframes moveProgress1 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  @keyframes moveProgress2 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes moveProgress3 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  
   @media (max-width:576px) {
       
           .smt>h6{
