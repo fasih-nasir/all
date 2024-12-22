@@ -1,13 +1,52 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*  */
 body {
     /* overflow:  hidden !important; */
     margin: 0;
+    letter-spacing: 0px !important;
     height: 100vh !important;
-    padding: 0;   font-family: "Balsamiq Sans" !important;
+    padding: 0;
+    font-family: "Poppins", serif !important;  
+     /* font-family: "Balsamiq Sans" !important; */
     text-transform: capitalize; background-color: #313131 !important;
     /* background-color: rgb(90, 90, 90) !important; */
     /* background: rgb(23,23,23);
     background: linear-gradient(4deg, rgba(23,23,23,1) 0%, rgba(47,11,49,1) 100%); */
 }
+/* loader */
+.lo{
+    position: absolute;
+    z-index: 2;
+    background-color: #202020;
+    height: 100vh;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 120px;
+    height: 22px !important;
+    border-radius: 20px;
+    color: #3a3a3a !important;
+    border: 2px solid !important;
+    position: relative;
+  }
+  .Re{
+    display: none !important;
+  }
+  .loader::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: l6 2s infinite;
+  }
+  @keyframes l6 {
+      100% {inset:0}
+  }
+/* loader */
 video{
     border-radius: 8px;
     /* width: 85vh !important; */
@@ -108,7 +147,7 @@ i>span{
             flex-wrap: wrap;
             overflow-y: scroll;
             height: 30vh;
-            /* transition: img 0.5s ease-in-out !important; */
+            /* transition: img 0.10s ease-in-out !important; */
             /* box-shadow: rgba(105, 106, 107, 0.691) 0px 2px 4px 0px, rgb(50, 54, 55) 0px 2px 16px 0px; */
 }
 h5{
@@ -119,8 +158,20 @@ h5{
 }
 
 .tr{
-
-    transition: 1.8s ease-in-out !important;
+    /* gap: 2 !important; */
+    /* background-color: #313131; */
+/* color: #8b8b8b; */
+position: relative;
+transition: 1.8s ease-in-out !important;
+}
+.bgs{
+    left: 13px;
+    top: 10px;
+position: absolute;
+padding: 2px 12px;
+font-size: 12px;
+border-radius: 40px;
+    background-color:#000000b6 !important;
 }
 img{
     border-radius: 5px;
@@ -148,6 +199,45 @@ option{
     outline: none !important;
     border: none !important;
 }
+input,textarea
+
+{
+    transition: 1.9s ease !important;
+    outline: none !important;
+border: none ;
+color: #8b8b8b !important;
+border-bottom: 1.5px solid #3a3a3a ;
+    background-color: transparent !important;
+}
+input:focus,textarea:focus{
+    
+    color: white !important;
+border-bottom: 1.5px solid white !important;
+}
+.btn2{
+    font-size: 34px;
+    text-underline-offset: 5px;
+    text-decoration: 0.9px solid underline #8b8b8b !important;
+    letter-spacing: -2px;
+    color: #8b8b8b;
+font-weight: 800;
+transition: 0.9s ease-in-out !important;
+    background-color: transparent ;
+}
+.btn2:hover{
+    color:  white !important;
+}
+.lete{
+    font-size: 34px;
+    /* text-underline-offset: 5px;
+    text-decoration: 0.9px solid underline #8b8b8b !important; */
+    letter-spacing: -2px;
+    color: #8b8b8b;
+font-weight: 800;
+transition: 0.9s ease-in-out !important;
+    background-color: transparent ;
+}
+
 .form-group>input::placeholder,.form-group>textarea::placeholder{
     color: rgb(205, 204, 204);    outline: none !important;
     text-transform: capitalize;
@@ -190,3 +280,88 @@ animation: 1.9s  fn linear infinite;
     /* background-size: cover; */
 }
 
+
+/* PROGRESS LINE  */
+/* Basic Styles */
+  .rtr{
+    /* height: 5%; */
+    position: relative;
+  }
+  .pro {
+    position: absolute;
+    height: 6%;
+    width: 0%;
+ border-bottom: 1px solid  #8b8b8b !important;
+    /* background-color: #3498db; Color of the progress line */
+    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+  }
+  .pro1 {
+    position: absolute;
+    height: 6%;
+    width: 0%;
+    top: 28px;
+ border-bottom: 1px solid  #8b8b8b !important;
+    /* background-color: #3498db; Color of the progress line */
+    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+  }
+  .pro2 {
+    position: absolute;
+    height: 6%;
+    width: 0%;
+    top: 56px;
+ border-bottom: 1px solid  #8b8b8b !important;
+    /* background-color: #3498db; Color of the progress line */
+    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+  }
+  .pro3 {
+    position: absolute;
+    height: 6%;
+    width: 0%;
+    top: 84px;
+ border-bottom: 1px solid  #8b8b8b !important;
+    /* background-color: #3498db; Color of the progress line */
+    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+  }
+  .pro4 {
+    position: absolute;
+    height: 6%;
+    width: 0%;
+    top: 56px;
+ border-bottom: 1px solid  #8b8b8b !important;
+    /* background-color: #3498db; Color of the progress line */
+    animation: moveProgress 10s ease-in-out forwards; /* Animation */
+  }
+  
+  /* Keyframes to animate the progress line */
+  @keyframes moveProgress {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @media (max-width:576px) {
+      
+          .smt>h6{
+      font-size: 12px;
+          }
+          .gtre{
+              display: none !important;
+          }
+  }
+  @media (max-width:992px) {
+  }
+  .bhttj{
+    position: absolute;
+    /* top: 0%; */
+    background-color: red;
+
+  }
+  .bgty{
+    background-color: #313131;
+  }
+  .bgty>h5{
+
+    background-color: #202020 !important;
+  }
