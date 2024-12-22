@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fasih-Nasir | Contact</title>
+    <!--     FOR SEO -->
+    <meta name="description" content="Get in touch with Fasih Nasir for web development services, projects, or collaboration opportunities.">
+<meta name="google-site-verification" content="1JvdWR2dy79uDKF9df02usmfuvqbhmHs0H2Pxc8HC6I" />
+    
 <link rel="stylesheet" href="style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -35,23 +39,23 @@
         </div>
             </div>
      <div class="col-lg-10  col-10 px-3 d-flex flex-row align-items-center justify-content-center"id="d4">
-        <div class="col-10 align-items-center justify-content-center d-flex flex-column">
-            <div class="col-8" id="cc">
-<h3>Get In Touch</h3>
-                <div class="form-group">
-                  <!-- <h5 for="name" >Name</h5> -->
-                  <input type="text" class="form-control" id="name"  placeholder="Enter name" />
-                </div>
-                <div class="form-group">
-                  <!-- <h5 for="email" >Email</h5> -->
-                  <input type="email" class="form-control" id="email"  placeholder="Enter email" />
-                </div>
-                <div class="form-group">
-                  <!-- <h5 for="message" >Message</h5> -->
-                  <textarea class="form-control" placeholder="Enter Msg" id="message"  rows="3"></textarea>
-                </div>
-                <button class="btn " id="btc" onclick="sendMail()" id="cont ">Send</button>
-<span class="float-end" id="fill"></span>
+        <div class="col-12 align-items-center justify-content-center d-flex flex-column">
+            <div class="col-lg-8" id="cc">
+<h2 class="lete pb-2 text-uppercase fw-bold">Reach Out</h2>
+<form method="POST" id="form">
+<div class="d-flex flex-column col-12">
+  <input type="hidden" name="access_key" value="3070b740-35cc-4484-b4bb-b8c09ba5ee2c">
+  <div class="col-12 d-flex flex-row gap-2 mt-4">
+    <input type="text" class="col-6" placeholder="Name"  name="name" required>
+    <input type="email" name="email" placeholder="Email" class="col-6"  required>
+  </div>
+  <div class="d-flex flex-row my-4  align-items-center">
+  <textarea name="message" class="col-12"placeholder="Project-Detail"  required></textarea>
+</div>
+  <button type="submit" class="btn2">DISCUSS PROJECT</button>
+  <div id="result"></div>
+</div>
+</form>
               </div>
         </div>
         <!-- <div class="col-5">
@@ -80,16 +84,49 @@
 
 <script src="app.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      const form = document.getElementById('form');
+const result = document.getElementById('result');
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("a9q6jxSCbVdBI316t");
-    })();
-  </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+form.addEventListener('submit', function(e) {
+    const formData = new FormData(form);
+    e.preventDefault();
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    result.innerHTML = "Please wait..."
+
+    fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                result.innerHTML = json.message;
+            } else {
+                console.log(response);
+                result.innerHTML = json.message;
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+        })
+        .then(function() {
+            form.reset();
+            setTimeout(() => {
+                result.style.display = "none";
+            }, 3000);
+        });
+});
+
+    </script>
 
   
   </body>
