@@ -9,7 +9,7 @@
 setTimeout(function() {
     document.getElementById('loader').style.display = 'none';
     document.getElementById("loader").className="Re"
-  }, 3000); 
+  }, 4000); 
 
 var all=[
   
