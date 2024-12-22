@@ -6,6 +6,10 @@
 //     document.getElementById("d3").classList.toggle("add");
 // document.querySelector(".i").classList.toggle("add1");
 // });
+setTimeout(function() {
+    document.getElementById('loader').style.display = 'none';
+    document.getElementById("loader").className="Re"
+  }, 3000); 
 
 var all=[
   
@@ -14,10 +18,10 @@ var all=[
     
     {name:"Weather-App",cat:"react",href:"https://fasih-nasirweather-app.vercel.app/",img:"img/50.png"},
     
-    {name:"Indeed",cat:"platform",href:"https://fasih-nasir-indeed.vercel.app/",img:"img/49.png"},
+    {name:"Indeed",cat:"react",href:"https://fasih-nasir-indeed.vercel.app/",img:"img/49.png"},
   
     
-    {name:"OLX",cat:"platform",href:"https://fasih-nasirolx.vercel.app/",img:"img/48.png"},
+    {name:"OLX",cat:"react",href:"https://fasih-nasirolx.vercel.app/",img:"img/48.png"},
     
     {name:"Portfolio",cat:"website",href:"https://ubaid-portfolio1.vercel.app/",img:"img/47.png"},
   
@@ -65,17 +69,24 @@ var all=[
       main.innerHTML=``
       for(let i=0;i<all.length;i++){
           main.innerHTML+=`
-        <a  class="d-flex align-items-center justify-content-center flex-row" href="${all[i].href}" target="_blank">
-          <div class="col-xl-3 col-6 tr">
-          <img src="${all[i].img}" class="img-fluid col-11" alt="">
-          <div class="col-lg-11 d-flex flex-xl-row flex-column justify-content-around flex-row align-items-center">
-    <h6 class="pt-2">${all[i].name}</h6>
-  
-        <a  class="d-flex align-items-center justify-content-center flex-row" href="${all[i].href}" target="_blank"><i class="fa-solid fa-play"></i></a>
-                      
-                      </div>
-                      </div>
-                      </a>
+                   <a  class="d-flex align-items-center justify-content-center flex-row" href="${all[i].href}" target="_blank">
+                <div class="col-xl-3 col-6 tr">
+                <img src="${all[i].img}" class="img-fluid col-11" alt="">
+              
+                <div class="col-lg-11 d-flex flex-xl-row flex-column justify-content-around flex-row align-items-center">
+                <h6 class="pt-2">${all[i].name}</h6>
+                
+                <a  class="d-flex align-items-center justify-content-center flex-row" href="${all[i].href}" target="_blank"><i class="fa-solid fa-play"></i></a>
+                
+                </div>
+                <div class="col-lg-11 d-flex flex-xl-row flex-column justify-content-around flex-row align-items-center">
+                    <p class="bgs">${all[i].cat}</p>
+                    
+                    
+                    </div>
+            
+                            </div>
+                            </a>
                       `
                       
                   }
