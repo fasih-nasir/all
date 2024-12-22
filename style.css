@@ -16,6 +16,7 @@ body {
 }
 /* loader */
 .lo{
+    transition: 0.9s ease-in-out !important;
     position: absolute;
     z-index: 2;
     background-color: #202020;
@@ -23,28 +24,46 @@ body {
 }
 
 /* HTML: <div class="loader"></div> */
+/* From Uiverse.io by Satwinder04 */ 
 .loader {
-    width: 120px;
-    height: 22px !important;
-    border-radius: 20px;
-    color: #3a3a3a !important;
-    border: 2px solid !important;
-    position: relative;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+    flex-direction: column;
   }
-  .Re{
-    display: none !important;
+  
+  .loader-text {
+    font-size: 24px;
+    color: #8b8b8b;
+    margin-bottom: 20px;
+    align-self: center;
   }
-  .loader::before {
-    content: "";
-    position: absolute;
-    margin: 2px;
-    inset: 0 100% 0 0;
-    border-radius: inherit;
-    background: currentColor;
-    animation: l6 2s infinite;
+  
+  .loader-bar {
+    width: 50%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #292929;
+    animation: loader-bar-animation 2s ease-in-out infinite;
   }
-  @keyframes l6 {
-      100% {inset:0}
+  
+  @keyframes loader-bar-animation {
+    0% {
+      /* transform: translateX(-100%) rotate(270deg); */
+      transform: translateX(-100%);
+    }
+  
+    50% {
+      /* transform: translateX(100%) rotate(-90deg); */
+      transform: translateX(100%);
+    }
+  
+    100% {
+      /* transform: translateX(-100%) rotate(270deg); */
+      transform: translateX(-100%);
+    }
   }
 /* loader */
 video{
