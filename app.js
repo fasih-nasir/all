@@ -78,7 +78,8 @@ var all=[
                 <img src="${all[i].img}" class="img-fluid col-11" alt="">
               
                 <div class="col-lg-11 d-flex flex-xl-row flex-column justify-content-around flex-row align-items-center">
-                <h6 class="pt-2">${all[i].name}</h6>
+           <h6 class="pt-2"><strong>${all[i].name}</strong></h6>
+
                 
                 <a  class="d-flex align-items-center justify-content-center flex-row" href="${all[i].href}" target="_blank"><i class="fa-solid fa-play"></i></a>
                 
