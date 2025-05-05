@@ -13,7 +13,7 @@ setTimeout(function() {
 
 var all=[
     
-    {name:"Erp Training Pakistan",cat:"React",href:"https://erptrainingpakistan.com/",img:"img/image.png"},
+    // {name:"Erp Training Pakistan",cat:"React",href:"https://erptrainingpakistan.com/",img:"img/image.png"},
     {name:"Games Trade ",cat:"React",href:"https://fasihnasir-game.netlify.app/",img:"img/55.png"},
   
     {name:"WIHR",cat:"react",href:"https://wihrconsultant.vercel.app/",img:"img/52.png"},
