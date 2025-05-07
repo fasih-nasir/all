@@ -1,15 +1,8 @@
-// var dark = document.getElementById("dark");
 
-// dark.addEventListener("click", () => {
-//     document.getElementById("d1").classList.toggle("add");
-//     document.getElementById("d2").classList.toggle("add");
-//     document.getElementById("d3").classList.toggle("add");
-// document.querySelector(".i").classList.toggle("add1");
-// });
 setTimeout(function() {
     document.getElementById('loader').style.display = 'none';
     document.getElementById("loader").className="Re"
-  }, 4000); 
+  }, 3500); 
 
 var all=[
     
