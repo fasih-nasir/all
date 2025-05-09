@@ -3,7 +3,12 @@
 setTimeout(function() {
     document.getElementById('loader').style.display = 'none';
     document.getElementById("loader").className="Re"
-  }, 3500); 
+  }, 0); 
+    // =========================== AGE CODE START ===============================
+  var age=document.getElementById("age")
+  age.innerHTML=new Date().getFullYear()-2006 ;
+
+  // =========================== AGE CODE END ===============================
 
 var all=[
     
@@ -65,6 +70,8 @@ var all=[
       // console.log(all);
       // fn()
       var main=document.getElementById("main")
+      if(main)
+      {
       main.innerHTML=``
       for(let i=0;i<all.length;i++){
           main.innerHTML+=`
@@ -133,6 +140,7 @@ var all=[
   
   })
   
+}
   
   
   
@@ -181,3 +189,5 @@ var all=[
           // prompt("Fill All Fields")
       } 
     }
+
+
