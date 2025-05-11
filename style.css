@@ -66,10 +66,16 @@ position: absolute !important;
 bottom: 5%;
 
     }
+   
     }
-      
+    .navbar{
+      position: sticky !important;
+      top: -5% !important;
+      height: max-content !important;
+      background-color: red !important;
+    }   
  .main_div .div_2{
-  position: sticky !important;
+  position: relative !important;
   top: 0% !important; 
            height: 90vh !important;
 

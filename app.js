@@ -3,7 +3,7 @@
 setTimeout(function() {
     document.getElementById('loader').style.display = 'none';
     document.getElementById("loader").className="Re"
-  }, 0); 
+  }, 2500); 
     // =========================== AGE CODE START ===============================
   var age=document.getElementById("age")
   age.innerHTML=new Date().getFullYear()-2006 ;
