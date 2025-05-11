@@ -42,14 +42,28 @@ body {
   .bg{
     background-color: var(--color) !important;
   }
+  @media (min-width:992px ) {
   .main_div .div_1, .main_div .div_2{
     height: 90vh !important;
+  
+  }
+  .div_1{
+    position: relative !important;
+  }
+  .icon_div{
+    bottom: 0% !important;
+    position:absolute !important;
+  }
+}
+.main_div .div_1, .main_div .div_2{
      color: white !important;
+     /* height: max-content !important; */
     background-color: #58575738 !important;
     backdrop-filter: blur(15px);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset !important;
   }
+ 
  .main_div .div_2{
   position: sticky !important;
   top: 0% !important; 
