@@ -13,24 +13,27 @@ body {
     margin: 0%;
     font-family: var(--font-family-Sansation) !important;  
     text-transform: capitalize; 
+    
   }
   /* ====================== MEDIA QUERY START ============================= */
   @media (max-width:992px) {
     .main_div .div_1, .main_div .div_2{
-      height: max-content !important;
+      height:max-content !important;
     }
-    .main_div{
-    height: 50vh !important;
-    position: absolute;
+  .h_100vh
+  {
+    background-size: cover;
+    height: 100vh !important;
   }
+  
   }
   /* ====================== MEDIA QUERY END ============================= */
 
   .h_100vh
   {
+    position: fixed !important;
     object-fit: cover !important;
     width: 100%;
-    position: relative !important;
     height: 100vh !important;
   }
 .main_div{
@@ -42,38 +45,42 @@ body {
   .bg{
     background-color: var(--color) !important;
   }
-  @media (min-width:992px ) {
   .main_div .div_1, .main_div .div_2{
-    height: 90vh !important;
-  
-  }
-  .div_1{
-    position: relative !important;
-  }
-  .icon_div{
-    bottom: 0% !important;
-    position:absolute !important;
-  }
-}
-.main_div .div_1, .main_div .div_2{
-     color: white !important;
-     /* height: max-content !important; */
-    background-color: #58575738 !important;
-    backdrop-filter: blur(15px);
+    height: 90vh ;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  background-color: #6666663f !important;
+  backdrop-filter: blur(20px);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset !important;
   }
- 
+  .main_div .div_1{
+      height: 100% ;
+      position: relative !important;
+    }
+    @media (min-width:992px) {
+    
+    .main_div .div_1 .icon_div{
+position: absolute !important;
+bottom: 5%;
+
+    }
+    }
+      
  .main_div .div_2{
   position: sticky !important;
   top: 0% !important; 
-  height: 100% !important;
+           height: 90vh !important;
+
+
   overflow-y: scroll !important;
 }
 .main_div .div_2::-webkit-scrollbar{
   background-color: transparent !important;
 }
 .main_div i{
+
   color: white;
 }
 .main_div i:hover{
@@ -129,17 +136,7 @@ background-color: white !important;
   }
   
 
-#d2 video{
-    border-radius: 8px;
-    /* width: 85vh !important; */
-    object-fit: cover;
-    background-size: cover;
-height: 50vh !important;
-border-radius: 5px;
-border:5px solid #3a3a3a;
-background-position: bottom;
-    /* width: 100% !important; */
-}
+
 
 
 
