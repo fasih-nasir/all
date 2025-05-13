@@ -1,19 +1,17 @@
+// var dark = document.getElementById("dark");
 
-
+// dark.addEventListener("click", () => {
+//     document.getElementById("d1").classList.toggle("add");
+//     document.getElementById("d2").classList.toggle("add");
+//     document.getElementById("d3").classList.toggle("add");
+// document.querySelector(".i").classList.toggle("add1");
+// });
 setTimeout(function() {
     document.getElementById('loader').style.display = 'none';
     document.getElementById("loader").className="Re"
-  }, 2500); 
-    // =========================== AGE CODE START ===============================
-  var age=document.getElementById("age")
-  age.innerHTML=new Date().getFullYear()-2006 ;
-
-  // =========================== AGE CODE END ===============================
+  }, 4000); 
 
 var all=[
-    
-    // {name:"Erp Training Pakistan",cat:"React",href:"https://erptrainingpakistan.com/",img:"img/image.png"},
-    {name:"Games Trade ",cat:"React",href:"https://fasihnasir-game.netlify.app/",img:"img/55.png"},
   
     {name:"WIHR",cat:"react",href:"https://wihrconsultant.vercel.app/",img:"img/52.png"},
  
@@ -70,8 +68,6 @@ var all=[
       // console.log(all);
       // fn()
       var main=document.getElementById("main")
-      if(main)
-      {
       main.innerHTML=``
       for(let i=0;i<all.length;i++){
           main.innerHTML+=`
@@ -140,7 +136,6 @@ var all=[
   
   })
   
-}
   
   
   
@@ -189,5 +184,3 @@ var all=[
           // prompt("Fill All Fields")
       } 
     }
-
-
