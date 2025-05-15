@@ -13,6 +13,8 @@ setTimeout(function() {
 
 var all=[
   
+    {name:"Game Trade",cat:"react",href:"https://fasihnasir-game.netlify.app/",img:"img/54.png"},
+
     {name:"WIHR",cat:"react",href:"https://wihrconsultant.vercel.app/",img:"img/52.png"},
  
     
@@ -25,7 +27,7 @@ var all=[
     
     {name:"OLX",cat:"react",href:"https://fasih-nasirolx.vercel.app/",img:"img/48.png"},
     
-    {name:"Portfolio",cat:"website",href:"https://ubaid-portfolio1.vercel.app/",img:"img/47.png"},
+    // {name:"Portfolio",cat:"website",href:"https://ubaid-portfolio1.vercel.app/",img:"img/47.png"},
   
     {name:"Chat Stream",cat:"website",href:"https://fasih-nasirpostappp.netlify.app/",img:"img/43.png"},
   
@@ -35,29 +37,29 @@ var all=[
     
     {name:"Brio Website",cat:"website",href:"https://fasih-nasirbrio.netlify.app/",img:"img/44.png"},
     
-      {name:"Loan calculator",cat:"calulator",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/36.png"},
-          {name:"Firesbase Login",cat:"website",href:"https://firesbaselogin.netlify.app/",img:"img/42.png"},
+    //   {name:"Loan calculator",cat:"calulator",href:"https://fasih-nasirloan-calculator.netlify.app/",img:"img/36.png"},
+        //   {name:"Firesbase Login",cat:"website",href:"https://firesbaselogin.netlify.app/",img:"img/42.png"},
    {name:"Case Converter",cat:"website",href:"https://fasih-nasircaseconverter.netlify.app/",img:"img/39.png"},
       {name:"Admin Pannel",cat:"website",href:"https://fasih-nasirjsproject27.netlify.app/",img:"img/32.png"},
       {name:"Keypress Game",cat:"game",href:"https://fasih-nasirkeypress.netlify.app/",img:"img/38.png"},
       {name:"tic-tac-toe",cat:"game",href:"https://fasih-nasirtictoe.netlify.app/",img:"img/281.png"},
       
           {name:"website",cat:"website",href:"https://fasihnasirdemo2.netlify.app/",img:"img/40.png"},
-        {name:"website",cat:"website",href:"https://fasihnasirwi.netlify.app/",img:"img/41.png"},
+        // {name:"website",cat:"website",href:"https://fasihnasirwi.netlify.app/",img:"img/41.png"},
       
-      {name:"Budget calculator",cat:"calulator",href:"https://fasih-nasirbudgetcalculator.netlify.app/",img:"img/37.png"},
+    //   {name:"Budget calculator",cat:"calulator",href:"https://fasih-nasirbudgetcalculator.netlify.app/",img:"img/37.png"},
       {name:"Quiz App",cat:"website",href:"https://fasih-nasirjsproject24.netlify.app/",img:"img/24.png"},
       {name:"calculator",cat:"calulator",href:"https://fasih-nasirjsproject17.netlify.app/cal.html",img:"img/16.jpg"},
       {name:"Text Editor",cat:"website",href:"https://fasih-nasirjsproject20.netlify.app/",img:"img/19.jpg"},
-      {name:"Dynamic Product",cat:"website",href:"https://fasih-nasirjsproject25.netlify.app/",img:"img/30.png"},
+    //   {name:"Dynamic Product",cat:"website",href:"https://fasih-nasirjsproject25.netlify.app/",img:"img/30.png"},
       {name:"Logistic",cat:"website",href:"https://wilogistic.netlify.app/",img:"img/29.png"},
-      {name:"Password Checker",cat:"website",href:"https://fasih-nasirpasswordcheck.netlify.app/",img:"img/35.png"},
+    //   {name:"Password Checker",cat:"website",href:"https://fasih-nasirpasswordcheck.netlify.app/",img:"img/35.png"},
       {name:"Ballon Game",cat:"game",href:"https://fasih-nasirballongame.netlify.app/",img:"img/33.png"},
       {name:"Qr Code",cat:"calulator",href:"https://fasih-nasirqrcode.netlify.app/",img:"img/26.jpg"},
-      {name:"Ecommerce Web",cat:"website",href:"https://fasih-nasirjsproject231.netlify.app/",img:"img/23.jpg"},
-      {name:"Spot Finder",cat:"website",href:"https://fasih-nasirproject14.netlify.app/",img:"img/14.jpg"},
+    //   {name:"Ecommerce Web",cat:"website",href:"https://fasih-nasirjsproject231.netlify.app/",img:"img/23.jpg"},
+    //   {name:"Spot Finder",cat:"website",href:"https://fasih-nasirproject14.netlify.app/",img:"img/14.jpg"},
       {name:"W3 School",cat:"website",href:"https://fasih-nasirproject8.netlify.app/",img:"img/25.jpg"},
-      {name:"Login/LogOut",cat:"website",href:"https://fasih-nasirjsproject23.netlify.app/",img:"img/22.jpg"}
+    //   {name:"Login/LogOut",cat:"website",href:"https://fasih-nasirjsproject23.netlify.app/",img:"img/22.jpg"}
   
   ]
   // document.getElementById("len").innerHTML=`(${all.length+2})`

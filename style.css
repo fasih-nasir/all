@@ -89,6 +89,9 @@ background-position: bottom;
 .container-fluid > div:nth-child(1),
 .container-fluid > div:nth-child(3) {
     /* border: 2px solid red; */
+    position: sticky !important;
+    top: 0% !important
+    ;
     color: rgb(217, 217, 217);
     background-color: var(--color);
     height: 100vh;
